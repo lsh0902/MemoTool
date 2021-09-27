@@ -1,0 +1,2 @@
+# MemoTool
+For excercise TypeScript
