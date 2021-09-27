@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <script> var exports = {}; </script>
+    <script type="module" src="./build/main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Motion</h1>
+            <button class="button__image">Image</button>
+            <button class="button__video">Video</button>
+            <button class="button__text">Text</button>
+            <button class="button__check">Todo</button>
+        </header>
+        
+        <section>
+            <div class="items">
+                <!-- <div class="item-video">
+                    <div class="contents">
+                        <iframe
+                        src="https://www.youtube.com/embed/S06cO2N7ZoI" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+                        <h2>편곡</h2>
+                    </div>
+                    <button>X</button>
+                </div> -->
+                <!-- <div class="item-image">
+                    <div class="contents">
+                        <img src="./background-210125-235634.png" alt="">
+                        <h2>title</h2>
+                    </div>
+                    <button>X</button>
+                </div> -->
+                <div class="item-text">
+                    <div class="contents">
+                        <h2>title</h2>
+                        <p>text text text~~</p>
+                    </div>
+                    <button>X</button>
+                </div>
+                <!-- <div class="item-checkbox">
+                    <div class="contents">
+                        <h2>title</h2>
+                        <ul>
+                            <li><input type="checkbox"> one</li>
+                            <li><input type="checkbox"> two</li>
+                        </ul>
+                    </div>
+                    <button>X</button>
+                </div> -->
+                
+            </div>
+        </section>
+
+        <footer>
+            <h4>@lsh 2021.09.24</h4>
+        </footer>
+    </div>
+
+    <div class="modal__background hidden">
+        
+    </div>
+
+    <div class="modal hidden">
+        <button class="close__button">X</button>
+        <h4>Title</h4>
+        <input type="text">
+        <h4 class="modal__content">Text</h4>
+        <input type="text">
+        <button class="add__button">Add</button>
+    </div>
+</body>
+</html>
