@@ -1,2 +1,2 @@
 # MemoTool
-For excercise TypeScript
+For excercise TypeScript and OOP without React
