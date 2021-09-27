@@ -14,7 +14,7 @@ button {
   cursor: pointer;
 }
 
-.container {
+.app {
   width: 700px;
   height: 90%;
   position: absolute;
@@ -24,31 +24,31 @@ button {
           transform: translate(-50%, -50%);
 }
 
-.container header {
+.app header {
   background-color: #2e2e2e;
   text-align: center;
   padding-bottom: 14px;
 }
 
-.container header h1 {
+.app header h1 {
   margin-bottom: 7px;
   color: #cf3700;
 }
 
-.container header button {
+.app header button {
   border: none;
   background-color: #cc3600;
   color: wheat;
   padding: 7px 25px;
 }
 
-.container section {
+.app section {
   background-color: #adadad;
   height: 550px;
   position: relative;
 }
 
-.container section .items {
+.app section .items {
   width: 95%;
   height: 95%;
   position: absolute;
@@ -58,7 +58,7 @@ button {
           transform: translate(-50%, -50%);
 }
 
-.container section .items .item-text {
+.app section .items .item-text {
   padding: 8px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -71,15 +71,15 @@ button {
           box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-.container section .items .item-text .contents {
+.app section .items .item-text .contents {
   color: white;
 }
 
-.container section .items .item-text .contents h2 {
+.app section .items .item-text .contents h2 {
   color: yellowgreen;
 }
 
-.container section .items .item-text button {
+.app section .items .item-text button {
   border: 0;
   outline: 0;
   background-color: rgba(0, 0, 0, 0);
@@ -88,7 +88,7 @@ button {
   font-size: 20px;
 }
 
-.container section .items .item-image {
+.app section .items .item-image {
   padding: 8px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -102,15 +102,15 @@ button {
   display: flex;
 }
 
-.container section .items .item-image .contents {
+.app section .items .item-image .contents {
   color: white;
 }
 
-.container section .items .item-image .contents h2 {
+.app section .items .item-image .contents h2 {
   color: yellowgreen;
 }
 
-.container section .items .item-image button {
+.app section .items .item-image button {
   border: 0;
   outline: 0;
   background-color: rgba(0, 0, 0, 0);
@@ -119,16 +119,16 @@ button {
   font-size: 20px;
 }
 
-.container section .items .item-image .contents img {
+.app section .items .item-image .contents img {
   height: 150px;
 }
 
-.container section .items .item-image .contents h2 {
+.app section .items .item-image .contents h2 {
   vertical-align: top;
   display: inline;
 }
 
-.container section .items .item-video {
+.app section .items .item-video {
   padding: 8px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -141,15 +141,15 @@ button {
           box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-.container section .items .item-video .contents {
+.app section .items .item-video .contents {
   color: white;
 }
 
-.container section .items .item-video .contents h2 {
+.app section .items .item-video .contents h2 {
   color: yellowgreen;
 }
 
-.container section .items .item-video button {
+.app section .items .item-video button {
   border: 0;
   outline: 0;
   background-color: rgba(0, 0, 0, 0);
@@ -158,11 +158,11 @@ button {
   font-size: 20px;
 }
 
-.container section .items .item-video .contents h2 {
+.app section .items .item-video .contents h2 {
   margin-left: 10px;
 }
 
-.container section .items .item-checkbox {
+.app section .items .item-checkbox {
   padding: 8px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -175,15 +175,15 @@ button {
           box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-.container section .items .item-checkbox .contents {
+.app section .items .item-checkbox .contents {
   color: white;
 }
 
-.container section .items .item-checkbox .contents h2 {
+.app section .items .item-checkbox .contents h2 {
   color: yellowgreen;
 }
 
-.container section .items .item-checkbox button {
+.app section .items .item-checkbox button {
   border: 0;
   outline: 0;
   background-color: rgba(0, 0, 0, 0);
@@ -192,11 +192,11 @@ button {
   font-size: 20px;
 }
 
-.container section .items .item-checkbox .contents ul {
+.app section .items .item-checkbox .contents ul {
   list-style: none;
 }
 
-.container footer {
+.app footer {
   background-color: #2e2e2e;
   text-align: center;
   padding: 10px;

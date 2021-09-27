@@ -16,4 +16,6 @@ export class Modal {
             modal.classList.add('hidden');
         });
     }
+    render() {
+    }
 }

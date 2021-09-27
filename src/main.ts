@@ -13,21 +13,21 @@ window.addEventListener('load', ()=>{
     Ibutton?.addEventListener('click', () => {
         const param : ModalTitle = 'URL'
         const contentType : ContentType = 'Image'
-        myModal.displayModal(param, contentType);
+        myModal.render(param, contentType);
     });
     Vbutton?.addEventListener('click', () => {
         const param : ModalTitle = 'URL'
         const contentType : ContentType = 'Video'
-        myModal.displayModal(param, contentType);
+        myModal.render(param, contentType);
     });
     Tbutton?.addEventListener('click', () => {
         const param : ModalTitle = 'Body'
         const contentType : ContentType = 'Text'
-        myModal.displayModal(param, contentType);
+        myModal.render(param, contentType);
     });
     Cbutton?.addEventListener('click', () => {
         const param : ModalTitle = 'Body'
         const contentType : ContentType = 'CheckBox'
-        myModal.displayModal(param, contentType);
+        myModal.render(param, contentType);
     });
 })

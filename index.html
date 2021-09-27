@@ -4,23 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My memo</title>
     <link rel="stylesheet" href="./assets/style.css">
-    <script> var exports = {}; </script>
-    <script type="module" src="./build/main.js"></script>
+    <script type="module" src="./build/main.js" defer></script>
 </head>
+
 <body>
-    <div class="container">
-        <header>
-            <h1>Motion</h1>
+    <div class="app">
+        <header class="banner">
+            <h1 class="banner__title">Motion</h1>
             <button class="button__image">Image</button>
             <button class="button__video">Video</button>
             <button class="button__text">Text</button>
             <button class="button__check">Todo</button>
         </header>
         
-        <section>
+        <section class="section">
             <div class="items">
+            </div>
+        </section>
+
+        <footer>
+            <h4>@lsh 2021.09.24</h4>
+        </footer>
+    </div>
+
+    <div class="modal__background hidden"></div>
+
+    <div class="modal hidden">
+        <button class="close__button">X</button>
+        <h4>Title</h4>
+        <input type="text">
+        <h4 class="modal__content">Text</h4>
+        <input type="text">
+        <button class="add__button">Add</button>
+    </div>
+</body>
+</html>
+
+
+
                 <!-- <div class="item-video">
                     <div class="contents">
                         <iframe
@@ -39,13 +62,13 @@
                     </div>
                     <button>X</button>
                 </div> -->
-                <div class="item-text">
+                <!-- <div class="item-text">
                     <div class="contents">
                         <h2>title</h2>
                         <p>text text text~~</p>
                     </div>
                     <button>X</button>
-                </div>
+                </div> -->
                 <!-- <div class="item-checkbox">
                     <div class="contents">
                         <h2>title</h2>
@@ -57,25 +80,3 @@
                     <button>X</button>
                 </div> -->
                 
-            </div>
-        </section>
-
-        <footer>
-            <h4>@lsh 2021.09.24</h4>
-        </footer>
-    </div>
-
-    <div class="modal__background hidden">
-        
-    </div>
-
-    <div class="modal hidden">
-        <button class="close__button">X</button>
-        <h4>Title</h4>
-        <input type="text">
-        <h4 class="modal__content">Text</h4>
-        <input type="text">
-        <button class="add__button">Add</button>
-    </div>
-</body>
-</html>
